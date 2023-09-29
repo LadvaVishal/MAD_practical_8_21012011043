@@ -10,10 +10,10 @@ Create AlarmService Class
 
 Add android.permission.SCHEDULE_EXACT_ALARM Permission in Manifest file
 
-ANS:
+**ANS:**
 ->Broadcast Receivers allow us to register for the system and application events, and when that event happens, then the register receivers get notified.
 
-Differenr:
+Different:
 -> Service can continue running in the background, whereas a Broadcast Receiver should finish quickly (e.g. if it is running for more than 5 seconds it may be 
    killed by the OS). The Broadcast Receiver can still run in the background (when app is closed) under certain circumstances.
 
